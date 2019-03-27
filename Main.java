@@ -9,7 +9,7 @@ public class Main {
 
         List<Persona> PersonList = Arrays.asList(
                 new Persona( 15,40951430)
-                ,new Persona(21,39431249 )
+                ,new Persona(21,39431249)
                 ,new Persona(20,5258964)
                 ,new Persona(28, 37893932)
                 ,new Persona(30,375487212)
