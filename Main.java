@@ -7,12 +7,13 @@ public class Main {
     public static void main(String[]ars)
     {
 
-        List<Persona> PersonList = new ArrayList<>();
-
-        for(int i =1;i<30;i++)
-        {
-            PersonList.add(new Persona(i*5,i*6000000));
-        }
+        List<Persona> PersonList = Arrays.asList(
+                new Persona( 15,40951430)
+                ,new Persona(21,39431249 )
+                ,new Persona(20,5258964)
+                ,new Persona(28, 37893932)
+                ,new Persona(30,375487212)
+                ,new Persona(18, 10000000));
 
 
         System.out.println("\n______PERSONAS MAYORES A 21_______");
